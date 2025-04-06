@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply bg-night-dark text-white m-0 p-0;
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.neon-text {
+  text-shadow: 0 0 5px rgba(255, 45, 149, 0.5), 0 0 10px rgba(255, 45, 149, 0.3);
+}
+
+.neon-border {
+  box-shadow: 0 0 5px rgba(0, 240, 255, 0.5), 0 0 10px rgba(0, 240, 255, 0.3);
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  border-radius: 0.5rem;
+} 

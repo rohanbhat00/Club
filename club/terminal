@@ -1,0 +1,3 @@
+npx create-next-app@latest toronto-nightlife
+cd toronto-nightlife
+npm install leaflet react-leaflet mongodb mongoose axios framer-motion react-icons 
